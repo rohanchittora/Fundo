@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jwala.quiz.MainActivity"
+    android:orientation="vertical"
+    android:background="#7fa87f">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:padding="1dp"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:id="@+id/scoretext"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="20sp"
+            android:id="@+id/score"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="Which thing is alive?"
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/question"/>
+
+    <Button
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:text="bird"
+        android:textColor="#fff"
+        android:background="#0091EA"
+        android:padding="1dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="door"
+        android:textColor="#fff"
+        android:background="#0091EA"
+        android:padding="1dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rock"
+        android:textColor="#fff"
+        android:background="#0091EA"
+        android:padding="1dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:textColor="#fff"
+        android:background="#7B1C"
+        android:padding="1dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/quit"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="skip"
+        android:textColor="#fff"
+        android:background="#7B1C"
+        android:padding="1dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/skip"/>
+
+
+</LinearLayout>

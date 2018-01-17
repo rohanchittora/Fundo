@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="username">Username</string>
+    <string name="cpu">CPU</string>
+    <string name="c">C</string>
+    <string name="_0">0</string>
+</resources>
